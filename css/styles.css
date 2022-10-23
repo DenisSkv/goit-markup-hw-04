@@ -443,6 +443,20 @@ body {
 
 /*----------------------FOOTER-------------------------*/
 
+.footer-position {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.footer-title {
+    font-weight: 700;
+    line-height: 1.14;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+
 .footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -456,7 +470,6 @@ body {
     color: var(--white-color);
 }
 
-
 .basement {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -466,6 +479,11 @@ body {
 
 .adress-item-footer:not(.adress-item-footer:last-child) {
     margin-bottom: 9px;
+}
+
+.footer-soc-link {
+    background: rgba(255, 255, 255, 0.1);
+    fill: var(--white-color);
 }
 
 .contacts .address-item-bottom {
@@ -493,6 +511,8 @@ body {
 .address-item-map:focus {
     color: var(--accent-color);
 }
+
+
 
 /*--------------------PORTFOLIO-------------------- */
 
@@ -538,4 +558,8 @@ body {
     border-right: 1px solid var(--border-color);
     border-left: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
+}
+
+.portfolio .portfolio-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
